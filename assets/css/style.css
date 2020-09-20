@@ -137,8 +137,12 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 26px;
   }
   #header #logo img {
-    max-height: 40px;
+    width: 160px;
+    max-height: 96px;
   }
+  #mobile-nav-toggle i {
+    color: black!important;
+}
 }
 
 #header.header-transparent {
@@ -970,6 +974,7 @@ section {
 }
 
 @media (max-width: 768px) {
+ 
   .portfolio-details .portfolio-description h2 {
     width: 100%;
   }
