@@ -131,18 +131,38 @@ h1, h2, h3, h4, h5, h6 {
   height: 160px;
 
 }
+@media(min-width: 600px) and (max-width: 990px){
+  #header #logo img {
+    width: 140px!important;
+    height: 106px!important;
+    max-height: 96px;
+    margin-top: 3px!important;
+    margin-left: -2px;
+
+  }
+}
 
 @media (max-width: 768px) {
   #header #logo h1 {
     font-size: 26px;
   }
   #header #logo img {
-    width: 160px;
-    max-height: 96px;
+    width: 140px!important;
+    max-height: 106px!important;
+    margin-left: -2px;
+  
   }
   #mobile-nav-toggle i {
     color: black!important;
 }
+}
+@media(min-width: 0px) and (max-width: 600px){
+  #header #logo img {
+    width: 140px!important;
+    max-height: 106px;
+    margin-top: -18px!important;
+    margin-left: -2px;
+  }
 }
 
 #header.header-transparent {
