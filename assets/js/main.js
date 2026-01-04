@@ -113,6 +113,8 @@
   var main_nav = $('.nav-menu, #mobile-nav');
 
   $(window).on('scroll', function() {
+    if (!$('#hero').length) return;
+
     var cur_pos = $(this).scrollTop() + 200;
 
     nav_sections.each(function() {
